@@ -29,7 +29,7 @@ define(['util', 'selector'], function (util, $) {
             + ']';
 
         taskText = '[]';
-        localStorage.clear();
+        //localStorage.clear();
         if (!localStorage.getItem('cate')) {  // 页面之前没被访问过的情况，载入默认值
             localStorage.cate = cateText;
             localStorage.childCate = childCateText;
